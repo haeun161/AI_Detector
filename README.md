@@ -14,3 +14,6 @@
  
 ### Method
 EfficientNetB6를 FineTuning 하여 AI가 생성형 이미지인지 분류
+
+### 사이트 주소
+https://aidetector-6qkhvjwm9gpn9cqdwqesgg.streamlit.app/
