@@ -5,11 +5,11 @@ import keras
 
 # session state 초기화
 if "model" not in st.session_state:
-    st.session_state.model = keras.models.load_model('model.h5')
+    st.session_state.model = keras.models.load_model('model/model_v1.h5')
 
 st.title(":desktop_computer: AI 생성 이미지 분류기")
 st.write("이 앱은 이미지가 인공지능에 의해 생성되었는지 판별하는 서비스입니다.")
-st.write("모델은 *[CIFAKE dataset](https://www.kaggle.com/datasets/birdy654/cifake-real-and-ai-generated-synthetic-images)* 를 사용하여 학습되었습니다.")
+st.write("모델은 GAN, Stable Diffuision, Midjourney, Flamel 생성형 AI로 생상된 이미지지를 사용하여 학습되었습니다.")
 st.divider()
 
 st.header(":envelope: 이미지 업로드")
@@ -41,7 +41,7 @@ if image_file is not None:
     st.image(image_file)
     st.divider()
 
-st.header(":page_with_curl: 같이 보기")
-st.markdown("* :memo: [Google Colaboratory](https://colab.research.google.com/drive/1PL2vC3NOWrJgX7ghpu_MAxy9186owuSK?usp=sharing)")
-st.markdown("* :computer: [GitHub 코드 저장소](https://github.com/plming/cifake-classifier-demo)")
-st.markdown("* :chart_with_upwards_trend: [Kaggle/CIFAKE](https://www.kaggle.com/datasets/birdy654/cifake-real-and-ai-generated-synthetic-images)")
+# st.header(":page_with_curl: 같이 보기")
+# st.markdown("* :memo: [Google Colaboratory](https://colab.research.google.com/drive/1PL2vC3NOWrJgX7ghpu_MAxy9186owuSK?usp=sharing)")
+# st.markdown("* :computer: [GitHub 코드 저장소](https://github.com/plming/cifake-classifier-demo)")
+# st.markdown("* :chart_with_upwards_trend: [Kaggle/CIFAKE](https://www.kaggle.com/datasets/birdy654/cifake-real-and-ai-generated-synthetic-images)")
