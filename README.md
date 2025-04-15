@@ -23,6 +23,9 @@
 
 ## Method
 - EfficientNetB6를 FineTuning 하여 AI가 생성형 이미지인지 분류 태스크 수행
+- EfficientNetB6
+-   ![image](https://github.com/user-attachments/assets/5f570bf9-b57b-4b88-bed5-6a7915bc495c)
+
 
 ## 데이터셋 구축
 - Flamel, Midjourney, DALLE, Stable Diffusion 상용화 모델을 사용하여 생성형 데이터셋 이미지를 구축
