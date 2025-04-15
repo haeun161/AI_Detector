@@ -33,14 +33,15 @@
   - 다양한 생성형 모델과 카테고리를 포함하고 있는 [GenImage](https://github.com/GenImage-Dataset/GenImage)와[MiT 구축 이미지](https://www.kaggle.com/datasets/tristanzhang32/ai-generated-images-vs-real-images/data) 데이터셋 사용
 
 ## 현재 최고 성능: 데이터 구조와 하이퍼파라미터
-- ![image](https://github.com/user-attachments/assets/803545f6-7151-4fb3-8b10-637078ad28fa)
+- 데이터셋
+  - ![image](https://github.com/user-attachments/assets/803545f6-7151-4fb3-8b10-637078ad28fa)
 - HyperParameter
   - Learning Rate: 0.0005
   - Batch: 8 (16부터는 GPU 부족)
   - Epoch: 20
   - D/O: 0.3
   - Regulatization Rate: 0.005
-- Fine-Tuning할 Layer 수: 30
+- Num of Fine-Tuning Layers: 30
 
 ## 사이트 주소
 https://aidetector-k6fwtyk6gyqodyvadhzxfj.streamlit.app/
